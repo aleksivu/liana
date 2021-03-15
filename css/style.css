@@ -1,0 +1,249 @@
+.container-fluid {
+    overflow: hidden;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.btn {
+    background-color: #4c8930;
+    color: white;
+}
+
+.topbar {
+    background-color: #4c8930;
+}
+
+.topbar ul {
+    text-align: right;
+    padding-bottom: 15px;
+}
+
+.topbar li {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.topbar a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.navbar ul {
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.navbar li {
+    font-size: 17px;
+}
+
+.searchbar {
+    position: 0;
+}
+
+.bannercontent {
+    position: relative;
+    background-image: url("../img/banner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    position: relative;
+    filter: brightness(50%);
+    opacity: 0;
+}
+
+.bannercontent .btn {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.centertext {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+    .centertext {
+        font-size: 5vw;
+    }
+}
+
+.pictures img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 40px;
+    filter: brightness(50%);
+}
+
+.column a:hover {
+    filter: brightness(70%);
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .column {
+        float: left;
+        width: 49.9999%;
+        padding: 5px;
+        position: relative;
+        text-align: center;
+    }
+    .columncenter {
+        font-size: 3vw !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .column {
+        float: left;
+        width: 99.9999%;
+        padding: 5px;
+        position: relative;
+        text-align: center;
+    }
+    .columncenter {
+        font-size: 4vw !important;
+    }
+}
+
+.columncenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.businessinfo i {
+    font-size: 60px;
+    color: #4c8930;
+}
+
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .column2 {
+        float: left;
+        width: 49.9999%;
+        padding: 5px;
+        position: relative;
+        text-align: center;
+    }
+}
+
+.news {
+    background-color: lightgray;
+}
+
+.newsbox {
+    background-color: white;
+    text-align: center;
+    margin: 40px 50px 40px 50px;
+}
+
+.references {
+    border-bottom: lightgrey solid 1px;
+    text-align: center;
+    width: 100%;
+}
+
+.referencespicture {
+    border: lightgrey solid 1px;
+    text-align: center;
+}
+
+.referencestext {
+    border: lightgrey solid;
+    border-width: 0px 1px 1px 1px;
+    text-align: center;
+}
+
+.newsletter {
+    text-align: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    list-style-type: none;
+}
+
+.footer .left {
+    margin: 50px;
+}
+
+.footer .right {
+    float: right;
+    margin: 50px;
+}
+
+.footer .right ul {
+    float: right;
+}
+
+.footer .right li {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.footer .right a {
+    color: white;
+}
+
+.socialbuttons a {
+    font-size: 25px;
+    color: white;
+    background-color: #4c8930;
+    border-radius: 50%;
+    padding: 10px;
+    text-align: center;
+    width: 45px;
+    text-decoration: none;
+}
